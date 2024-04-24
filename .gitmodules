@@ -1,14 +1,14 @@
 [submodule "meta-rwt-carbon808"]
 	path = meta-rwt-carbon808
-	url = git@github.com:redwiretechnologies/meta-rwt-carbon808.git
+	url = https://github.com/redwiretechnologies/meta-rwt-carbon808.git
 	branch = kirkstone
 [submodule "meta-rwt-carbon808-carp"]
 	path = meta-rwt-carbon808-carp
-	url = git@github.com:redwiretechnologies/meta-rwt-carbon808-carp.git
+	url = https://github.com/redwiretechnologies/meta-rwt-carbon808-carp.git
 	branch = kirkstone
 [submodule "meta-rwt-common"]
 	path = meta-rwt-common
-	url = git@github.com:redwiretechnologies/meta-rwt-common.git
+	url = https://github.com/redwiretechnologies/meta-rwt-common.git
 	branch = kirkstone
 [submodule "meta-adi"]
 	path = meta-adi
