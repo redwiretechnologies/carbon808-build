@@ -16,7 +16,7 @@ Clone the git repository:
 $ git clone https://github.com/redwiretechnologies/carbon808-build.git -b kirkstone
 
 Change Directory
-$cd build-oxygen
+$cd carbon808-build
 
 Update the submodules:
 
