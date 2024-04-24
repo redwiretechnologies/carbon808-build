@@ -1,4 +1,4 @@
-# build-carbon
+# carbon808-build
 A package of the submodules to build custom openembedded images for the RWT Carbon  SDR Development Kit
 This is currently nuilt on the kirkstone branch of OpenEmbedded/Yocto
 
@@ -13,7 +13,7 @@ The files should be installed in the /opt/Xilinx default directory structure or 
 Getting Started
 Clone the git repository:
 
-$ git clone https://github.com/redwiretechnologies/build-carbon.git -b kirkstone
+$ git clone https://github.com/redwiretechnologies/carbon808-build.git -b kirkstone
 
 Change Directory
 $cd build-oxygen
@@ -24,7 +24,13 @@ $ git submodule update --init
 
 Initialize the build system:
 
-$ TEMPLATECONF=\`pwd\`/meta-rwt-carbon/conf/ source ./poky/oe-init-build-env ./build
+For Just a Carbon808 SDR:
+
+$ TEMPLATECONF=\`pwd\`/meta-rwt-carbon808/conf/ source ./poky/oe-init-build-env ./build
+
+For a Carbon808 with a CARP backpack:
+
+$ TEMPLATECONF=\`pwd\`/meta-rwt-carbon808-carp/conf/ source ./poky/oe-init-build-env ./build
 
 Select the MACHINE to build for:
 
