@@ -37,3 +37,9 @@ Select the MACHINE to build for:
 Build an image:
 
 $ bitbake rwt-sdr-image -k
+
+To update the submodules to the latest versions:
+
+$ git submodule update --remote
+
+Running this command may update repos which will trigger a near full rebuid of the distrubion.  Updating the repos helps to fix bugs and also fix CVEs in the system
